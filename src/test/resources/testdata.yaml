@@ -1,0 +1,9 @@
+firstName: "John"
+lastName: "Doe"
+age: 31
+employee: true
+contactDetails:
+   - type: "mobile"
+     number: 123456789
+   - type: "landline"
+     number: 456786868

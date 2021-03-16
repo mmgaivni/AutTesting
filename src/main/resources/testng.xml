@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="First Test Suite">  
+<listeners>
+		<listener class-name="SeleniumAutomation.Demo.TestListener" />
+	</listeners>
+  <test name="First Test scripts">  
+      <classes>  
+      <class name="SeleniumAutomation.Demo.firstpackage.FirstTestClass"/>  
+      <class name="SeleniumAutomation.Demo.firstpackage.SecondTestClass"/>
+      <class name="SeleniumAutomation.Demo.With.POM.Guru99LoginTests"/>  
+    </classes>  
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->  
